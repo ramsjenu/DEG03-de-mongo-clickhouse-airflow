@@ -1,0 +1,11 @@
+de_project_airflow:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      schema: de_project_airflow
+      host: clickhousedb
+      port: 8123
+      user: vrams
+      password: vinu2003
+      secure: False
