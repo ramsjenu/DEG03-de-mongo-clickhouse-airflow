@@ -1,6 +1,6 @@
 version: '3.1'
 services:
-  scheduler:
-    user: root
+  airflow-scheduler:
+    user: airflow
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:rw
